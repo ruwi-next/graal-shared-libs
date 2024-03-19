@@ -16,4 +16,4 @@ run_native: Foo
 	./Foo
 
 clean:
-	rm -r Foo.class Foo.jar Foo
+	rm -rf Foo.class Foo.jar Foo
