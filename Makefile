@@ -10,7 +10,7 @@ run_jar: Foo.jar
 	java -jar Foo.jar
 
 Foo: Foo.jar
-	native-image -jar Foo.jar
+	native-image -jar Foo.jar --native-image-info --verbose
 
 run_native: Foo
 	./Foo
